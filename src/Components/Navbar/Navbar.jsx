@@ -21,7 +21,7 @@ const Navbar = () => {
         <nav className="navbar navbar-expand-lg  navbar-dark bg-dark">
           <div className="container d-flex">
             <a className="navbar-brand" href="/">
-              Weather-App
+              Weather-Says
             </a>
             <button
               class="navbar-toggler"
@@ -57,7 +57,7 @@ const Navbar = () => {
         </nav>
       </div>
       <h1 style={{ textAlign: "center" }}>Hello {cityname}</h1>
-      <div className="container">
+      <div className="container-lg" style={{height:"34.3rem"}}>
         <CurrentWeather city_name={cityname} />
         <WeatherCard city_name={cityname} />
       </div>
