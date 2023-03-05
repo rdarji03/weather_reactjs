@@ -57,8 +57,10 @@ const Navbar = () => {
         </nav>
       </div>
       <h1 style={{ textAlign: "center" }}>Hello {cityname}</h1>
-      <div className="container-lg" style={{height:"34.3rem"}}>
+      <div className="container-lg">
         <CurrentWeather city_name={cityname} />
+        <h4 >3 days forecast </h4>
+        <hr style={{margin:"0"}}/>        
         <WeatherCard city_name={cityname} />
       </div>
     </>
